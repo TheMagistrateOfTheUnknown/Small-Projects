@@ -1,0 +1,214 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 560px;
+    height: 560px;
+    padding: 0pt;
+    position: center;
+    border-collapse: collapse;
+ 
+  }
+  body{
+    background-image: url("ezek.jpg");
+    background-repeat: none;
+    color: #48ff00;
+  
+  }
+ 
+  div#szoveg
+  {
+      font-size: 25pt;
+      width: 45%;
+      background-color: black;
+  }
+  /*button{
+    background-color: transparent;
+    border: 0;
+    color:greenyellow;
+    align-items : center;
+  }*/
+  #rejt{
+    font-size: 40pt;
+    text-align: center;
+  }
+  button#start{
+    width: 40%;
+    text-align: center;
+  }
+  button#changeBoard{
+    width: 30%;
+    text-align: center;
+
+  }
+  input{
+    height: 40pt;
+    width: 200pt;
+    font-size: 40pt;
+  }
+  div#elapsed{
+    font-size: 40pt;
+    color:black;
+    text-align: left;
+  }
+  
+  .rejtett{
+    display: none;
+  }
+  td{
+    border: 1px solid black;
+    padding: 0pt;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    margin: 0;
+    
+    
+  }
+  div.hidden{
+    display: none;
+  }
+  td.nagy{
+    height: 56px;
+    width: 56px;
+  }
+  td.black{
+    background-color: black;
+   text-align: center;
+   font-size: xx-large;
+    color: white;
+    
+  } 
+  td.blackRossz
+  {
+    background-color: black;
+   text-align: center;
+   font-size: xx-large;
+    color: red;
+  } 
+button#general{
+  width: 45%;
+  text-align: center;
+}
+/* CSS */
+button {
+  
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 40pt;
+  width: 100%;
+}
+div#gombok {
+  width: 45%;
+}
+button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+  td.blackJo
+  {
+    background-color: black;
+   text-align: center;
+   font-size: xx-large;
+    color: green;
+  }
+  td.white{
+    background-color: white;
+  }
+  td.yellow{
+    background-color: yellow;
+    
+  }
+  button.hidden{
+    display: none;
+  }
+  td.korte{
+    background-image: url("letoltes.png");
+    background-size: 45px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: yellow;
+  }
+  td.korteRed{
+    background-image: url("letoltes.png");
+    background-size: 45px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+  }
+  @media only screen and (min-height: 1231px) 
+{
+  body{
+    background-image: url("ezekNagy.jpg");
+  }
+ table{
+  width: 770px;
+  height: 770px;
+ }
+ td{
+  width: 110px;
+  height: 110px;
+ }
+ td.nagy{
+  width: 77px;
+  height: 77px;
+ }
+
+}

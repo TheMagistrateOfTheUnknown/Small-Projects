@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="alap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="letoltes.png">
+    <title>Lamp Game</title>
+</head>
+<body>
+    <p  id="rejt">Add meg a neved :<br>
+        <input type="text" name="ss" id="ss">
+        
+        <br>
+        <button id="start">Játék kezdése</button></p>
+        <div id="gombok"> 
+            <button id="newGame" class="rejtett">Új játék</button><br>
+            <button  id="konnyu" class="rejtett">Könnyű</button><br>
+        <button id="kozepes" class="rejtett">Közepes</button><br>
+        <button id="halado" class="rejtett">Haladó</button><br>
+        <button id="leiras" class="rejtett">Játék leírás</button>
+        <button id="betolt" class="rejtett">Betöltés</button> 
+        <button id="mentes" class="rejtett">Mentés</button>
+    </div>
+    
+        
+    <div id="szoveg" class="rejtett"><h1>A játék leírása</h1>
+        A királynak négyzet alapú szobái vannak, amelyek fekete és fehér cellákból állnak.
+        A fehér cellákba villanykörtéket lehet elhelyezni.
+        A villanykörtékből a fény átlósan nem terjed, csak az adott sor és oszlop mentén.
+        A fekete cellákon valamilyen tereptárgy van, ami akadályozza a fény terjedését.
+        A fekete cellák opcionálisan egy egész számot is tartalmazhatnak 0-tól 4-ig. Ez azt jelzi, hogy hány szomszédos (alul, felül, jobbra, balra) cella tartalmaz villanykörtét. Ha van ilyen szám, akkor be kell tartani!
+        Két villanykörte soha nem világíthatja meg egymást!
+        A játék célja a villanykörtéket úgy elhelyezni, hogy minden fehér cellát megvilágítsanak.
+        A játékot egy játékos játssza, amíg meg nem oldja a rejtvényt, tehát több játékos egyidejű kezeléséről vagy körökre osztásról nem kell gondoskodni.<br>
+    <button id="vissza">Vissza</button></div>
+    <button id="changeBoard" class="rejtett">Másik Pálya</button>
+    <div id="konnyuTabla" class="hidden"></div>
+    <div id="kozepesTabla" class="hidden"></div>
+    <div id="haladoTabla" class="hidden"></div>
+    <div id="elapsed" class="rejtett">Time</div>
+    <script src="script.js"></script>
+    <script src="script2.js"> </script>
+    <script src="script3.js"></script>
+    <script src="gombok.js"></script>
+</body>
+</html>
