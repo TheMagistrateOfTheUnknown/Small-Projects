@@ -1,0 +1,168 @@
+.test{
+    background-color: red;
+    
+}
+body{
+    background-color: black;
+    color : greenyellow;
+}
+#begin{
+    background-image: url("back.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 40pt;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+.greenMark{
+    background-color: green;
+}
+.redMark{
+    background-color: red;
+}
+.blackM{
+    background-color : white
+}
+th{
+    height: 60pt;
+    width : 120pt;
+    border: 1px solid black; /* Border style for table cells */
+  padding: 8px;
+  
+}
+td{
+    border: 1px solid black; /* Border style for table cells */
+  padding: 8px;
+}
+#runAllT{
+    text-align: center;
+}
+input[type="text"]
+{
+    background-color : goldenrod;
+    color: red;
+    height: 40pt;
+    font-size: larger;
+
+    width: 120pt;
+}
+#switch{
+    text-align: center;
+}
+.Switcher{
+    background-color: blue;
+    color : white;
+    height: 30pt;
+    width: 100pt;
+}
+#mistakes{
+    text-align: center;
+    color: red;
+    /*
+    background-image: url("back.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;   margin-right: 20%;
+    margin-left: 20%;*/
+}
+input[type="number"]
+{
+    background-color : goldenrod;
+    height: 40pt;
+    color: red;
+
+    font-size: larger;
+
+    width: 120pt;
+}input[type="radio"]
+{
+    background-color : goldenrod;
+    height: 40pt;
+    color: red;
+
+    width: 120pt;
+    font-size: larger;
+}
+.Test{
+    background-color: blue;
+    color : white;
+    height: 30pt;
+    width: 100pt;
+}
+#Create{
+    text-align: center;
+}
+.Create{
+    background-color: blue;
+    color : white;
+    height: 40pt;
+    width: 120pt;
+}
+.Delete{
+    background-color: red;
+    color : white;
+    height: 40pt;
+    width: 100pt;
+}
+#form h2,h3{
+    font-size: 30pt;
+    color: red;
+    background-color: gray;
+}
+
+#form{
+    background-image: url("back.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+table{
+    text-align: center;
+    background-color: gray;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: larger;
+
+}
+.black{
+    text-align: center;
+    height: 60pt;
+    width : 120pt;
+    background-image: url("v.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.green{
+    text-align: center;
+    height: 60pt;
+    width : 120pt;
+    background-image: url("g.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.red{
+    text-align: center;
+    height: 60pt;
+    width : 120pt;
+    background-image: url("r.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+img{
+    height: 30pt;
+    width:  30pt;
+}
+
